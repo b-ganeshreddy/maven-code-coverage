@@ -16,15 +16,12 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 
 	</properties>
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.0.0-M5</version>
+    <scope>test</scope>
+</dependency>
 
-	<reporting>
-		<plugins>
-			<plugin>
-				<groupId>com.github.spotbugs</groupId>
-				<artifactId>spotbugs-maven-plugin</artifactId>
-				<version>3.1.8</version>
-			</plugin>
-		</plugins>
-	</reporting>
 
 </project>
