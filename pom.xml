@@ -23,7 +23,7 @@
     <version>5.0.0-M5</version>
     <scope>test</scope>
 </dependency>
-<dependencies>
+</dependencies>
 <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
